@@ -1,4 +1,4 @@
-var n=9;
+var n=6;
 var squares=document.querySelectorAll(".square");
 var ques=document.getElementById("question");
 var messageDisplay=document.querySelector("#message");
