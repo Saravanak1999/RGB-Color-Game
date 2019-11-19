@@ -17,6 +17,7 @@ for (var i = 0; i < squares.length; i++) {
 			messageDisplay.textContent="Correct!";
 			document.querySelector("#top-bar").style.background=q;
 			retry.textContent="Play Again?"
+			newGame();
 		}
 		else{
 			messageDisplay.textContent="Try Again";
