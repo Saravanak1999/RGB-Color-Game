@@ -1,4 +1,4 @@
-var n=6;
+var n=9;
 var squares=document.querySelectorAll(".square");
 var ques=document.getElementById("question");
 var messageDisplay=document.querySelector("#message");
@@ -17,7 +17,6 @@ for (var i = 0; i < squares.length; i++) {
 			messageDisplay.textContent="Correct!";
 			document.querySelector("#top-bar").style.background=q;
 			retry.textContent="Play Again?"
-			newGame();
 		}
 		else{
 			messageDisplay.textContent="Try Again";
